@@ -1,4 +1,5 @@
-# Simplified approach to setting up an existing project for version control when using CML for Machine Learning workflows or for Cloudera Data Engineering (CDE) SPARK Development
+# Simple approach to set up a CML project on Github as a part of CML or CDE SPARK Development
+
 ## Context: 
 If you have started using Cloudera machine learning and are setting up your ML Project, and are at a point where you want to set up a git repo to collaborate and distribute your work, then this tutorial provides you an easy set of steps to do so, by working directly working in theCML platform without switching out of the platform IDE.
 
