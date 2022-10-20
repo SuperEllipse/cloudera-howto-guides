@@ -27,39 +27,39 @@ Git has been one of the go-to choices for developers for versioning, collaborati
 - Launch CML from CDP Control pane and select the workspace where would like to set up this demo project for version control 
 <br>
 <br>
-![alt text](images/launch-project.jpg)
+![alt text](./images/launch-project.jpg)
 - After clicking  on the new project enter the details for a sample project <br> <br>
-![alt text](images/NewProject.png) <br>
+![alt text](./images/NewProject.png) <br>
 - This creates a new project with a set of default folders. Check that your folder structure looks like below  <br> <br>
-![alt text](images/Default-project.png)
+![alt text](./images/Default-project.png)
 - Next launch a default session with Workbench and basic configurations <br> 
 
 ### Step2 : Setting up the Github repo on Github server
 - Got to www.github.com , sign in with your user id
 - On the top right corner click on "+" sign and add Repository
-![alt text](images/Create-new-repository.jpg)
+![alt text](./images/Create-new-repository.jpg)
 - Add the repository details as below
-![alt text](images/Create-Repo.jpg)
+![alt text](./images/Create-Repo.jpg)
 - After saving the repository, check that you can see the repostory listed in the repo home. Open this repo and copy the path of the repository. Your repoistory should have the format https://github.com/<your-user-name>/git-version-demo 
-![alt text](images/Repo-home.jpg)
+![alt text](./images/Repo-home.jpg)
 - Next click on your Github profile icon on the top right to go to Git hub settings<br>
-![](images/Profile-Menu.jpg)
+![](./images/Profile-Menu.jpg)
 - Click on menu option and developer settings option <br>
-![](images/developer-settings.jpg)
+![](./images/developer-settings.jpg)
 - Click a new personal access token that you can use to connect to public git from CLI.<br>
-![](images/Personal-access-token.jpg)
+![](./images/Personal-access-token.jpg)
 - After you complete the previous step, ake sure you have copied the generated token somewhere.<br
-![](/images/GeneratedToken.jpg)
+![](.//images/GeneratedToken.jpg)
 
 This completes all the steps on the public Github that you needed to do to set up a remote repository. In the next step we will learn how to connect to this repository from Cloudera Machine Learning service. 
 
 ### Step 3 
 - Come back to your project in Cloudera Machine Learning workspace that you had created earlier and start a new session with default settings ( you can use any editor , since we will not be working with the editor , it really does not matter which one you choose)
-![alt text](images/New-session.png) <br><br>
+![alt text](./images/New-session.png) <br><br>
 - Once your session is spun off, click on Terminal access from the top menu to launch a new terminal for your session. <br> <br>
--![alt text](images/terminal-access.jpg) 
+-![alt text](./images/terminal-access.jpg) 
 - Now we will add the current project files shown in the terminal to our remote repository
--![alt text](images/terminal-details.jpg)<br> <br>
+-![alt text](./images/terminal-details.jpg)<br> <br>
 <br>
 - Next we will use some commands to push the contents of our local project to the remote repository
 
@@ -75,20 +75,20 @@ This completes all the steps on the public Github that you needed to do to set u
 4. Finally get the status of the repo. This gives us the list of files in the project that we would now like to add to our remote repository. Git commands can be used to ignore certain files as well, but for now well add all these files.<br>
 `git status` <br> <br>
 Below is the output you should see after running these commands on terminal at the end of step 4 <br><br>
-![alt text](images/cml-terminal.jpg)
+![alt text](./images/cml-terminal.jpg)
 
 5. Next let us add all these files for version tracking and make our first commit <br>
 `git add .` <br>
 `git commit -a -m "first git commit"` <br>
 Below is the output after running these commands that you can refer to.
-![alt text](images/git-initial-commit.jpg)
+![alt text](./images/git-initial-commit.jpg)
 6. Finally you need to create a branch called main and  push these commited files to the main branch <br>
 `git branch -m Main`<br>
 `git push origin main`<br>
 you will be asked to login to your Gitaccount. Use your userid and the personalized access token that you copied to enter here. The output looks like this.
-![alt text](images/cml-terminal-2.jpg) <br><br>
+![alt text](./images/cml-terminal-2.jpg) <br><br>
 7. Finally, as a last step we will go back to the github public repo to check if our changes are indeed pushed to the repo. here is the output of the earlier empty repository , which now contains my CML project. 
-![alt text](images/Validate-in-githu.jpg)
+![alt text](./images/Validate-in-githu.jpg)
 
 ## Summary
 in this guide,  we learnt how to add an existing code artefcts in Cloudera Machine Learning Platform that you would create as a part of your Machine learning workflow or for Spark jobs on CDE to a repository on a public github. Github provides a large set of commands that can be used on CML Command line terminal for working with your remote repository. For more information check out additional documentation on github.com
