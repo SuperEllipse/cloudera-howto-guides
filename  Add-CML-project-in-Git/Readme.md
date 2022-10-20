@@ -1,9 +1,9 @@
-# Simple approach to set up a CML project on Github as a part of CML or CDE SPARK Development
+# Simple approach to set up a CML project on Git for version control as a part of CML or CDE  Development
 
 ## Context: 
-If you have started using Cloudera machine learning and are setting up your ML Project, and are at a point where you want to set up a git repo to collaborate and distribute your work, then this tutorial provides you an easy set of steps to do so, by working directly working in theCML platform without switching out of the platform IDE.
+If you are using Cloudera machine learning and are setting up your ML Project, and are at a point where you want to set up a git repo for versioning your artefacts as well as collaborating on your project with a broader team, then this tutorial provides you an easy set of steps to do so, by working directly working in the CML IDE without ever leaving the platform.
 
-**IMPORTANT WARNING / DISCLAIMER** - These steps will put your code into an external repository, please make sure you understand that you are now publishing your code externally and be cognizant of copyright and properitory implications that brings when you initiate this. 
+**IMPORTANT WARNING / DISCLAIMER** - These steps will put your code into an external repository, please make sure you understand that you are now publishing your code externally and be aware of copyright and properitory implications through this process. 
 
 ## Pre-requisites: 
 - This tutorial outlines the process of using a public git repository on github. A subsequent
@@ -13,8 +13,11 @@ guide will be published on how to follow this process for a private git repo for
 
 
 
-## Additional Git References
+## Additional  References for Documentation
+**Cloudera CML Documentation** <br>
+[ Using CML and Git](https://docs.cloudera.com/machine-learning/cloud/projects/topics/ml-using-git.html)
 
+**Github official documentation**
 - [Adding locally hosted code to github](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github)
 - [Creating a Personal Acccess Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
