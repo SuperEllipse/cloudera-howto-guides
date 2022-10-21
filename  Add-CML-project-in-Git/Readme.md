@@ -42,7 +42,7 @@ Git has been one of the go-to choices for developers for versioning, collaborati
 ![alt text](./Images/Create-new-repository.jpg) <br><br>
 - Add the repository details as below <br><br>
 ![alt text](./Images/Create-Repo.jpg) <br><br>
-- After saving the repository, check that you can see the repostory listed in the repo home. Open this repo and copy the path of the repository. Your repoistory should have the format https://github.com/<your-user-name>/git-version-demo <br><br>
+- After saving the repository, check that you can see the repostory listed in the repo home. Open this repo and copy the path of the repository. Your repoistory should have the format https://github.com/your-user-name/git-version-demo <br><br>
 ![alt text](./Images/Repo-home.jpg) <br><br>
 - Next click on your Github profile icon on the top right to go to Git hub settings<br><br>
 ![alt text](./Images/Profile-Menu.jpg) <br><br>
