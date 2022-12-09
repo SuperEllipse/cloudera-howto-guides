@@ -84,7 +84,7 @@ Below is the output you should see after running these commands on terminal at t
 Below is the output after running these commands that you can refer to.
 ![alt text](./Images/git-initial-commit.jpg)
 6. Finally you need to create a branch called main and  push these commited files to the main branch <br>
-`git branch -m Main`<br>
+`git branch -m main`<br>
 `git push origin main`<br>
 you will be asked to login to your Gitaccount. Use your userid and the personalized access token that you copied to enter here. The output looks like this.<br><br>
 ![alt text](./Images/cml-terminal-2.jpg) <br><br>
